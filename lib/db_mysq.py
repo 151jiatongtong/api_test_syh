@@ -7,7 +7,7 @@ from job_syh.config.config import *
 
 
 def get_db_conn():
-    '''连接数据库'''
+    ！'''连接数据库'''！
     conn = pymysql.connect(host=db_host,
                             port=db_port,
                             user=db_user,
